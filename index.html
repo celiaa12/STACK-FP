@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Celia's Personal Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand fw-bolder fs-3" href="#home">lia.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutMe">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#edu">Education and Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#connect">Connect With Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container ms-8">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h1 class="hero_title">Hi, I'm Celia Maureen</h1>
+                <h3 class="hero_xtitle">College Student</h3>
+                <p class="hero_desc">Welcome to my personal website. Here! I'll show you all about me.</p>
+                <a href="#aboutMe"><button class="btn1 fw-bolder">Get To Know Me</button></a>
+                <!--<p class="hero_quote">Quote for you : <script src="./index.js"></script></p>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- aboutMe section-->
+    <section id="aboutMe">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center fw-bolder">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/IT.jpg" class= "imageAboutPage" alt="IT">
+                    <img src="images/Art.jpg" class= "imageAboutPage" alt="Art">
+                </div>
+
+                <div class="col-lg-8 mt-5">
+                    <p> I am currently a college student at Udayana University, Indonesia. My interest in technology and information since high school led me to major in Informatics. Being an introvert doesn't stop me from being active in organizations. I joined the Informatics Student Association (HIMAIF) since the first semester. Besides that, I also like art, especially fine arts. Drawing and painting became my hobby in the middle of college life.</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- skills section-->
+    <section id="skills">
+        <div class="container">
+            <h1 class="text-center fw-bolder">Skills</h1>
+            <div class="row">
+                <div class="col-lg-6 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class="fab skillsIcon fa-figma"></i>
+                            <h4 class="card-title mt-3">Design</h4>
+                            <p class="card-text mt-3">Loving art has made me try to use digital media to design. Now actively using Figma and Adobe Photoshop.</p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-6 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class="fas skillsIcon fa-brain"></i>
+                            <h4 class="card-title mt-3">Creativity</h4>
+                            <p class="card-text mt-3">Being creative also makes me pay more attention to details. This makes me a perfectionist when making something.</p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class="fas skillsIcon fa-laptop"></i>
+                            <h4 class="card-title mt-3">Programming</h4>
+                            <p class="card-text mt-3">Currently studying C, C++, Python, Pascal, as well as using HTML and CSS.</p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-6 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class="fas skillsIcon fa-language"></i>
+                            <h4 class="card-title mt-3">Language</h4>
+                            <p class="card-text mt-3">There are three languages ​​that I use, namely Indonesian (native), English, and Mandarin.</p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Edu section-->
+    <section id="edu">
+        <div class="container mt-3">
+            <h1 class="text-center fw-bolder">Education</h1>
+            <div class="year">
+                <h3 class="">2022 - Present</h3>
+                <div class="school">
+                    <h4>Udayana University, Bali</h4>
+                    <div class="bach">
+                        <p>Bachelor of Informatics</p>
+                    </div>
+                </div>
+                <h3>2019 - 2022</h3>
+                <div class="school">
+                    <h4>Kolese Santo Yusup Senior High School, Malang</h4>
+                </div>
+                <h3>2016 - 2019</h3>
+                <div class="school">
+                    <h4>Darma Yudha Junior High School, Pekanbaru</h4>
+                </div>
+            </div>
+            
+
+            <h1 class="text-center fw-bolder">Experience</h1>
+            <p>Through my education, I don't just focus on studying academic subjects, I also train myself on hard skills and soft skills. By participating in many activities, committees, and organizations, I gained many unforgettable experiences.</p>
+                <div class="ex-list">
+                    <ul>
+                    <li>Diskusi Akademis Informatika 2023 Vice Leader</li>
+                    <li>INVENTION 2023 Public Relations Member</li>
+                    <li>SUPREMASI 2023 Public Relations Member</li>
+                    <li>SNATIA 2023 3D Member</li>
+                    <li>KOSAYU Choir 2019-2022 Member</li>
+                    <li>Darma Yudha Scout 2017 Treasurer</li>
+                    </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section-->
+    <footer id="connect">
+        <div class="container-fluid mt-4">
+            <h1 class="text-center fw-bolder">Connect With Me</h1>
+            <div class="social-icons mt-4">
+                <a href="https://www.instagram.com/celiaa.mc/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100083838294391" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/celiamaureen/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://wa.me/+6285274500877" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="card-text">Email : celiamaureen12@gmail.com</p>
+                    <p class="card-text">2023 - Celia Maureen</p>
+                    <p class="card-text">Made At Dawn </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
